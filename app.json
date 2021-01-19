@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Fast Pro",
+    "slug": "fast-pro",
+    "version": "1.0.0",
+    "description": "Fast Pro Application",
+    "ios": {
+      "bundleIdentifier": "com.by.fastpro",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.by.fastpro",
+      "versionCode": 1
+    },
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon": "./src/assets/images/image-app-icon.png",
+    "splash": {
+      "image": "src/assets/images/image-splash.png",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "src/assets/images/*",
+      "src/assets/fonts",
+      "src/layouts/**/assets/*"
+    ],
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#F7F9FC"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}
